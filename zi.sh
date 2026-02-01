@@ -83,7 +83,7 @@ install_zivpn() {
     chmod +x $BIN_FILE
     
     if [ ! -f "$CONFIG_FILE" ]; then
-        wget -q https://raw.githubusercontent.com/zahidbd2/udp-zivpn/main/config.json -O $CONFIG_FILE
+        wget -q https://raw.githubusercontent.com/fauzanihanipah/ziv-udp/main/config.json -O $CONFIG_FILE
     fi
 
     # Generate Certs
