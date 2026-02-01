@@ -79,7 +79,7 @@ install_zivpn() {
     echo -e "${YELLOW}[!] Memulai Instalasi/Update ZiVPN...${NC}"
     apt-get update && apt-get install -y jq curl openssl ufw bc
     
-    wget -q https://github.com/zahidbd2/udp-zivpn/releases/download/udp-zivpn_1.4.9/udp-zivpn-linux-amd64 -O $BIN_FILE
+    wget -q https://github.com/fauzanihanipah/ogh-zivpn/raw/main/udp-zivpn-linux-amd64 -O $BIN_FILE
     chmod +x $BIN_FILE
     
     if [ ! -f "$CONFIG_FILE" ]; then
