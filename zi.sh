@@ -60,7 +60,7 @@ fi
 sudo systemctl stop zivpn.service > /dev/null 2>&1
 
 echo -e "Downloading UDP Service"
-sudo wget https://github.com/roodyzain99/udp-zivpn/releases/download/udp-zivpn_1.4.9/udp-zivpn-linux-amd64 -O /usr/local/bin/zivpn-bin
+sudo wget https://github.com/fauzanihanipah/ziv-udp/releases/download/udp-zivpn/udp-zivpn-linux-amd64 -O /usr/local/bin/zivpn-bin
 sudo chmod +x /usr/local/bin/zivpn-bin
 sudo mkdir -p /etc/zivpn
 sudo wget https://raw.githubusercontent.com/fauzanihanipah/ziv-udp/main/config.json -O /etc/zivpn/config.json
