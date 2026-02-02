@@ -4,7 +4,7 @@ USER_DB="/etc/zivpn/users.db.json"
 CONFIG_FILE="/etc/zivpn/config.json"
 
 # --- KONFIGURASI AUTHOR (EDIT DI SINI) ---
-AUTHOR="ROODYZAIN"
+AUTHOR="OGH-ZIV"
 
 
 # --- Colors ---
